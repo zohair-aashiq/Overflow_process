@@ -1,0 +1,51 @@
+Configs are read from a file on local server.
+Started at Fri Apr 12 09:53:32 CEST 2019
+Input path: /home/zohair/Documents/NLP_Poject/data
+Output path: /home/zohair/Documents/NLP_Poject/data_out
+Seed: 0
+Training proportion: 0.6
+Validation proportion: 0.1
+Test proportion: 0.3
+Output format: parquet
+Vocabulary Size: 1000000
+Minimum DF: 10
+N-Grams: 2
+Type of Algorithm for Features: idfModel
+Token usage threshold: 10
+Combine body and title for bagOfWords: true
+normalizer: false
+lowerCase: false
+stemmer: false
+Spark session=local[*], app=Overflow-Processor
+Input path: /home/zohair/Documents/NLP_Poject/data
+Reading and tokenizing the text
+Took 2821 milliseconds.
+Tags are read from /home/zohair/Documents/NLP_Poject/data/postTag*.csv
+processed tags
+Done writing essential files
+
+Total 10717 seconds.
+
+
+
+
+
+
+------------------------------------------------------------
+<Input directory logs>
+Started at Thu Apr 11 17:38:57 CEST 2019
+Input path: /home/zohair/Documents/NLP_Poject/xml
+Output path: /home/zohair/Documents/NLP_Poject/data
+Number of output files: 17
+Number of read actors: 3
+Number of write actors: 7
+Batch size: 729
+
+XML files to parse
+/home/zohair/Documents/NLP_Poject/xml/math.stackexchange.com/Posts.xml
+
+Successfuly finished at Thu Apr 11 17:43:32 CEST 2019
+Total 275 seconds.
+
+</Input directory logs>
+------------------------------------------------------------

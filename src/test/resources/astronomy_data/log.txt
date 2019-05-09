@@ -1,0 +1,13 @@
+Started at Thu Mar 14 16:04:37 CET 2019
+Input path: /home/oguz/sparkproject/data/astronomy/STACKEXCHANGE/Raw/
+Output path: /home/oguz/sparkproject/data/astronomy/STACKEXCHANGE/CSV/
+Number of output files: 32
+Number of read actors: 3
+Number of write actors: 3
+Batch size: 800
+
+XML files to parse
+/home/oguz/sparkproject/data/astronomy/STACKEXCHANGE/Raw/astronomy.stackexchange.com/Posts.xml
+
+Successfuly finished at Thu Mar 14 16:04:40 CET 2019
+Total 3 seconds.
