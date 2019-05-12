@@ -2,9 +2,9 @@
 echo "This script automates the compilation to a fat jar, pushing to cluster/HDFS and running the application";
 echo "The specified app.conf must exist on "
 ./compile.sh;
-ssh -t zohair@m5848.contaboserver.net  "hadoop fs -rm /user/oguz/Overflow-processor/processor.jar; sudo rm /home/oguz/overflow-processor/processor.jar";
+ssh -t zohair@m5848.contaboserver.net  "hadoop fs -rm /user/zohair/Overflow-processor/processor.jar; sudo rm /home/oguz/overflow-processor/processor.jar";
 scp Overflow-processor-assembly-0.1.jar oguz@m5848.contaboserver.net:/home/zohair/overflow-processor/processor.jar;
-ssh -t zohair@m5848.contaboserver.net  "hadoop fs -put /home/oguz/overflow-processor/processor.jar\
+ssh -t zohair@m5848.contaboserver.net  "hadoop fs -put /home/zohair/overflow-processor/processor.jar\
     /user/oguz/Overflow-processor/processor.jar; tmux new \" spark-submit \
   --class Main \
   --master yarn \
