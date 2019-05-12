@@ -19,5 +19,5 @@ ssh -t zohair@m5848.contaboserver.net  "hadoop fs -put /home/zohair/overflow-pro
   --conf spark.dynamicAllocation.schedulerBacklogTimeout=3s\
   --conf spark.dynamicAllocation.executorIdleTimeout=180s\
   --files hdfs:///user/oguz/whole/app.conf \
-  hdfs:///user/oguz/Overflow-processor/processor.jar \" "
+  hdfs:///user/zohair/Overflow-processor/processor.jar \" "
 
